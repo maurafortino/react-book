@@ -25,7 +25,7 @@ class Main extends Component {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav mr-auto">
                 <li className="nav-item active">
-                  <NavLink to="/Saved">Saved <span class="sr-only">(current)</span></NavLink>
+                  <NavLink to="/Saved">Saved  <span class="sr-only">(current)</span></NavLink>
                 </li>
                 <li className="nav-item">
                   <NavLink to="/Search">Search</NavLink>
