@@ -1,10 +1,11 @@
 import React from "react";
 import SearchForm from "./components/Search";
+import Heading from "./components/Heading";
  
 const Search = () =>{
     return (
       <div>
-        <h2>Search</h2>
+        <Heading size="4">Search</Heading>
         <SearchForm />
       </div>
     );

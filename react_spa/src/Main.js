@@ -17,7 +17,7 @@ class Main extends Component {
         <div>
 
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <NavLink to="/">Google Book Search </NavLink>
+            <NavLink to="/" className="navbar-brand">Google Book Search </NavLink>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
@@ -25,10 +25,10 @@ class Main extends Component {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav mr-auto">
                 <li className="nav-item active">
-                  <NavLink to="/Saved">Saved <span class="sr-only">(current)</span></NavLink>
+                  <NavLink to="/Saved" className="nav-link">Saved <span className="sr-only">(current)</span></NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink to="/Search">Search</NavLink>
+                  <NavLink to="/Search" className="nav-link">Search</NavLink>
                 </li>
               </ul>
             </div>
