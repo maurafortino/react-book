@@ -3,10 +3,11 @@ import {
     Route,
     HashRouter
 } from "react-router-dom";
-import Home from "../src/pages/Home/index";
 import Search from "../src/pages/Search/index";
 import Saved from "../src/pages/Saved/index";
 import NavBar from "../src/components/Navbar/index";
+import "./main.css";
+import Header from "../src/components/Header/index"
 
 class Main extends Component {
     render() {
@@ -16,9 +17,9 @@ class Main extends Component {
                     <ul className="header">
                         <NavBar/>
                     </ul>
-                    <h1>Simple SPA</h1>
+                    <Header />
                     <div className="content">
-                        <Route exact path="/" component={Home} />
+                        <Route exact path="/" component={Search} />
                         <Route path="/search" component={Search} />
                         <Route path="/saved" component={Saved} />
                     </div>
